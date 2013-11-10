@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Aspose.Cells</id>
+    <version>7.6.0</version>
+    <title>Aspose.Cells for .NET</title>
+    <authors>Aspose</authors>
+    <owners>Aspose</owners>
+    <licenseUrl>http://www.aspose.com/corporate/purchase/end-user-license-agreement.aspx</licenseUrl>
+    <projectUrl>http://www.aspose.com/categories/.net-components/aspose.cells-for-.net/default.aspx</projectUrl>
+    <iconUrl>http://www.aspose.com/images/products/dotnet/Aspose.Cells_128x128.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Aspose.Cells for .NET is a spreadsheet programming component that allows software developers to manipulate and convert spreadsheet files from within their own applications. A combination of APIs and GUI controls, Aspose.Cells for .NET speeds up Microsoft Excel programming and conversion.</description>
+    <summary>Aspose.Cells for .Net is a class library for Excel document processing</summary>
+    <releaseNotes>New Features
+42063 - Select a different PaperSource in Aspose.Cells
+41985 - Add collection objects to Lambda/Linq friendly
+ 
+Enhancements
+41995 - PowerPoint file formats are detected incorrectly by Aspose.Cells
+41990 - Publicize some older APIs (classes, methods etc.) after updating them (e.g. Shape.Paths, ShapePathCollection etc.)
+41928 - Inserting OLE Documents as linked - Issue with updating SourceFullName attribute
+41924 - Set Excel VBS / CreateObject font color and cell’s shading color
+ 
+Performance
+41947 - Support Re-sampling for the added images to reduce the file size
+ 
+Exceptions
+42003 - Issue with refreshing PivotTables
+41977 - Exception: "Invalid FontUnderlineType string val" while re-saving the file
+42062 - Opening a worksheet complains about invalid formula
+42050 - CellsException: Invalid formula"=NOT(ISERROR(SEARCH(..........." while re-saving the file
+42005 - Exception when cell formula contains '\r' character
+41956 - Exception when opening the template file
+ 
+Bugs
+41984 - Calculation of the height (via CalculateTextSize() method) is incorrect
+42054 - Output PDF's PivotTable does not look the same as its original XLSX file
+42053 - Cannot save an XLSX file as a PDF if there is no field in the "Row Labels" in PivotTables
+42018 - Pivot chart with Dates in X-axis does not appear in the output PDF
+42016 - Pivot table’s calculated field is not calculated correctly in the output PDF
+42007 - Pivot table’s vertical alignment always resets to Center
+42006 - PivotTables are not auto-fitting rows to display the word wrapped contents correctly
+42004 - The background color is not rotated but text is rotated in the HTML
+41973 - The generated Excel file from HTML format does not have defined Cell Names
+41970 - Subtotal row of Date columns in the PDF does not have the same Date formatting
+41962 - Insert blank lines not working in other Pivot columns other than the first in the output PDF
+41958 - Background color doesn't match in Excel if exporting to HTML
+41712 - Generated PDF does not have the PivotTables’ Page Breaks
+42025 - SharedStrings are retained even after clearing data from the worksheet since v7.5.2.1
+42045 - XLS to PDF conversion prints all the pages instead of Print Area
+41570 - Excel to PDF Arabic conversion issue
+41394 - Bug in converting Excel (RTL (Right-to-Left) format) to PDF
+42033 - Issue with copying PivotTable in MS Excel 2010
+42030 - Text wrap setting lost on refreshing PivotTable in Values’ columns
+41983 - PivotTables in XLS files cause corruption
+42036 - Saving a Column chart with RefreshChartCache option rotates the chart
+42028 - Half of the dates are correct, but the other half is formatted as numbers
+42023 - Graph data labels are not rendered correctly
+42022 - Problem with setting Gradient fill color in the Line chart type series
+42017 - Equation and RSquared are not hiding in the Trend Lines
+42011 - Incorrect Pie charts after conversion from XLSX to XLS
+41948 - Chart to Image conversion issue
+42064 - RemoveExternalLinks removes the custom Excel formulas/functions as well
+42042 - Setting ListObject.ShowHeaderRow to “false” broken
+42041 - Bug in Worksheet.Cells.ExportDataTableAsString method
+42040 - Data sorter obliterates rich text formatting
+42038 - Excel syntax not supported by Aspose.Cells - it should print 360
+42032 - Excel found unreadable content in XLSX
+42020 - DATEDIF function problem in Aspose.Cells for .NET
+42012 - Formula calculation issue
+42010 - Security Alert in MS Excel after converting the file
+41997 - Japanese Fonts’ display problem
+41971 - “IFERROR(IF…” formula values do not appear in PivotTable in the output PDF</releaseNotes>
+    <copyright>© Aspose 2002-2013. All Rights Reserved.</copyright>
+    <language />
+    <tags>Excel Spreadsheet Aspose.Cells XLS XLSX TXT ODS</tags>
+  </metadata>
+</package>
